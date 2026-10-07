@@ -103,6 +103,7 @@ h4 {
 
 .card-img {
     border: 10px solid var(--secondary-color);
+    width: 100%;
 }
 
 main section {
