@@ -3,33 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profolio</title>
-    <link type="text/css" rel="stylesheet" href="profolio.css" />
+    <title>Protfolio</title>
+    <link type="text/css" rel="stylesheet" href="protfolio.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Edu+QLD+Hand:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
-     <div class="content-box">
-        <table>
-          <tr>
-            <th></th>
-            <th>Title</th>
-            <th>Location</th>
-            <th>Year</th>
-          </tr>
-    <div id="content">
-        <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/roundlogo.png" alt="Dry Oar Logo">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="wwr.html">WWR</a>
-                <a href="ice.html">ICE</a>
-                <a href="about_me.html">About Me</a>
-            </nav>
-        </header>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="logo.png" alt="Protfolio Logo">
+        </a>
+        <div>
+            <input type="text" placeholder="Search">
+        </div>
+    </header>
 
+    <main>
+        <section class="hero">
+            <h1>Welcome to my Portfolio</h1>
+        </section>
+
+        <section class="folders-container">
+            <a href="index.html" class="folder-card">
+                <span class="folder-label">Home</span>
+                <img src="folder.png" alt="Folder Icon">
+            </a>
+            <a href="wwr/index.html" class="folder-card">
+                <span class="folder-label">WWR</span>
+                <img src="folder.png" alt="Folder Icon">
+            </a>
+            <a href="ice.html" class="folder-card">
+                <span class="folder-label">ICE</span>
+                <img src="folder.png" alt="Folder Icon">
+            </a>
+            <a href="about_me.html" class="folder-card">
+                <span class="folder-label">About me</span>
+                <img src="folder.png" alt="Folder Icon">
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p>Phone: +1 (208) 456-7890</p>
+            <p>Email: che25027@byui.edu</p>
+        </div>
+    </footer>
 </body>
 </html>
