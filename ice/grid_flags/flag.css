@@ -63,8 +63,8 @@ grid-column: 2/3;
 
 #denmark {
   display: grid;
-  grid-template-columns: 90px 30px 180px;
-  grid-template-rows: 85px 30px 85px;
+  grid-template-columns: 1fr 20px 1.8fr;
+  grid-template-rows: 1fr 20px 1fr;
   height: 200px;
   width: 300px;
   background: white;
