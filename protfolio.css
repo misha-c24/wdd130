@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #000000;
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.collage-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.collage-item {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    color: #472d30;
+}
+
+.collage-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.collage-item span {
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+    background-color: #c9cba3; 
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.collage-item:hover {
+    transform: scale(1.1);
+}
+
+.item-home   { top: 20%; left: 15%; }
+.item-wwr    { top: 35%; left: 75%; }
+.item-ice    { top: 60%; left: 30%; }
+.item-about  { top: 70%; left: 65%; }
+
+.mac-dock {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    background-color: #ffffff4d; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ffffff80; 
+}
+
+.mac-dock img, 
+.dock-icon img {
+    transition: transform 0.2s;
+}
+
+.mac-dock img:hover,
+.dock-icon:hover img {
+    transform: scale(1.2);
+}
+
+.setting-icon    { width: 130px; height: 130px; }
+.ig-icon     { width: 100px; height: 100px; }
+.Safari-icon     { width: 130px; height: 130px; }
+
+.email-icon { width: 130px; height: 130px; }
+.phone-icon { width: 100px; height: 100px; }
+
+.trash-icon { width: 110px; height: 110px; }
+
+.dock-divider {
+    width: 2px;
+    height: 45px;
+    background-color: #ffffff99;
+    margin: 0 10px;
+}
