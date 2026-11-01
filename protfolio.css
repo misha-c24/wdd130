@@ -79,14 +79,14 @@ body {
     transform: scale(1.2);
 }
 
-.setting-icon    { width: 130px; height: 130px; }
-.ig-icon     { width: 100px; height: 100px; }
-.Safari-icon     { width: 130px; height: 130px; }
+.setting-icon    { width: 75px; height: 75px; }
+.ig-icon     { width: 60px; height: 60px; }
+.Safari-icon     { width: 80px; height: 80px; }
 
-.email-icon { width: 130px; height: 130px; }
-.phone-icon { width: 100px; height: 100px; }
+.email-icon { width: 75px; height: 75px; }
+.phone-icon { width: 60px; height: 60px; }
 
-.trash-icon { width: 110px; height: 110px; }
+.trash-icon { width: 65px; height: 65px; }
 
 .dock-divider {
     width: 2px;
