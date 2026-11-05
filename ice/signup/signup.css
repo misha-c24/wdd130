@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background: rgb(120, 96, 64);
+    font-family: "Times New Roman", Times, serif;
+}
+
+#formContainer {
+    width: 450px;
+    margin: 30px auto;
+    background: white;
+    border: 10px solid #1a365d;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#hero img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}
+
+#hero button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.header-text {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h2 {
+    margin: 0;
+    font-size: 38px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.header-text p {
+    margin: 5px 0 0;
+    font-size: 33px;
+    text-shadow: 2px 2px black;
+}
+
+form {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+form h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 20px 130px;
+    align-items: center;
+}
+
+.form-grid input[type="text"],
+.form-grid input[type="password"],
+.form-grid input[type="email"] {
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center; 
+
+}
+
+.checkbox-section {
+    margin: 20px 0;
+    text-align: center;
+    
+}
+
+.submit-section {
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer {
+    display: flex;
+    gap: 4px;
+}
+
+.footer-block {
+    flex: 1;
+}
+
+.footer-block img {
+    width: 100%;
+    height: 110px;
+    object-fit: fill;
+    display: block;
+}
+
+.footer-block:last-child img {
+    border-right: none;
+}
