@@ -10,10 +10,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
+   <header class="header" id="myTopnav">
+        <!-- Dropdown container triggered on hover -->
+        <div class="dropdown">
+            <a href="index.html" class="logo-link">
+                <img src="logo.png" alt="Portfolio Logo" class="logo-img">
+            </a>
+            
+            <!-- Navigation links that drop down on hover -->
+            <div id="myLinks" class="dropdown-content">
+                <a href="index.html" class="active">Home</a>
+                <a href="wwr/index.html">WWR</a>
+                <a href="ice.html">ICE</a>
+                <a href="about_me.html">About Me</a>
+            </div>
+        </div>
+    </header>
     
-    <img src="biglogo.png" alt="Background Desktop" class="bg-image">
+    <img src="BG.png" alt="Background Desktop" class="bg-image">
     <main class="collage-container">
-
         <a href="index.html" class="collage-item item-home">
             <img src="folder.png" alt="Home">
             <span>Home</span>
@@ -33,7 +48,6 @@
             <img src="folder.png" alt="About Me">
             <span>About Me</span>
         </a>
-
     </main>
 
     <nav class="mac-dock">
@@ -43,11 +57,11 @@
         
         <div class="dock-divider"></div>
 
-        <a href="mailto:m00277@c.edu" class="dock-icon" title="Email Me">
+        <a href="mailto:che25027@byui.edu" class="dock-icon" title="Email Me">
             <img src="mail.png" alt="Email" class="email-icon">
         </a>
         
-        <a href="tel:+11604567890" class="dock-icon" title="Call Me">
+        <a href="tel:+12089481798" class="dock-icon" title="Call Me">
             <img src="phone.png" alt="Phone" class="phone-icon">
         </a>
 
@@ -55,6 +69,5 @@
 
         <img src="trash.png" alt="Trash" class="dock-icon-img trash-icon">
     </nav>
-
 </body>
 </html>
