@@ -5,7 +5,7 @@ body {
     height: 100vh;
     overflow: hidden;
     font-family: "Sniglet", system-ui;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -18,8 +18,8 @@ body {
 }
 
 .header .logo-img {
-  height: 300px; 
-  width: auto;
+  height: 200px; 
+  width: 200px;
   justify-content: center;
   display: block;
 }
@@ -37,7 +37,7 @@ body {
   left: 50%;                 
   transform: translateX(-50%); 
   background-color: #fdfae5;
-  min-width: 160px;
+  min-width: 120px;
   box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
   z-index: 10;
   border-radius: 8px;
@@ -54,7 +54,7 @@ body {
   color: #3b2b45;
   padding: 12px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 15px;
   display: block;
   border-bottom: 1px solid rgba(0,0,0,0.05);
 }
@@ -91,8 +91,8 @@ body {
 }
 
 .collage-item img {
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
 }
 
 .collage-item span {
@@ -136,14 +136,14 @@ body {
     transform: scale(1.2);
 }
 
-.setting-icon    { width: 75px; height: 75px; }
-.ig-icon     { width: 60px; height: 60px; }
-.Safari-icon     { width: 80px; height: 80px; }
+.setting-icon    { width: 65px; height: 65px; }
+.ig-icon     { width: 50px; height: 50px; }
+.Safari-icon     { width: 70px; height: 70px; }
 
-.email-icon { width: 75px; height: 75px; }
-.phone-icon { width: 60px; height: 60px; }
+.email-icon { width: 65px; height: 65px; }
+.phone-icon { width: 50px; height: 50px; }
 
-.trash-icon { width: 65px; height: 65px; }
+.trash-icon { width: 55px; height: 55px; }
 
 .dock-divider {
     width: 2px;
